@@ -1,0 +1,21 @@
+App.jsx
+
+activateButton, start, end, buttonExist variable ini masih belum ada tujuan jelas atau masih menjadi "variable anomali'
+
+
+context.jsx
+
+1. func defaultButtonAcitave fungsi membuat list untuk penengah yang melacak 'kecocokan' dari permainan mencocokkan kata bahasa inggris-nya, 
+2. var data untuk menampung data json,
+3. var activateLeftButton dan var activateRightButton menjadi 'penengah pelacakan'-nya dari tombol tombol yang memiliki hubungan berdasarkan transtale English-Indonesia,
+4. var randomInt bertujuan mengambil antrian kata yang hendak diambil nantinya, sehingga permainan akan menampikan soalan mencocokkan kata yang berbeda-beda setiap sesinya,
+5. var items ini adalah variable percobaan
+
+
+element.jsx
+
+1. var visibleButtons bertujuan menjadi penampung sementara dari var data berdasarkan antrian yang telah dibuat di var randomInt,
+2. var startIndex merupakan cursor untuk menandakan awal dari antrian,
+3. var constraint adalah variable pembantu untuk memberitahukan banyak tombol yang belum memiliki pasangan yang tepat nantinya(saat bermain mencocokkan kata),
+4. var clear adalah variable yang menjadi pembantu menentukan banyak jawaban benar yang diperoleh pemain dan juga penanda akhir dari permainan
+
